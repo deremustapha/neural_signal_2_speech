@@ -46,14 +46,31 @@ Download:
 ## ⚙️ Installation
 
 1. **Create Conda environment**
+We provide an `environment.txt` file to reproduce the exact conda environment.
 
 ```bash
-conda create -n phoneme-decoding python=3.10 -y
+conda create -n brain2speech --file environment.txt
 conda activate brain2speech
 
 
+## 🚀 Training Steps
+
+### 1. Train the tokenizer
+
+Train a VQ-VAE tokenizer on raw EMG:
+
+```bash
+python tokenizer.py
 
 
+### 2. Train the phoneme decoder
+
+EMG into phonemes:
+
+```bash
+python phoneme_decoding.py
 
 
+### 3. Listen to generated audio from BMISEMG2SPEECH Dataset
+<audio controls src="audio"></audio>
 
