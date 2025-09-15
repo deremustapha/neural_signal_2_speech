@@ -12,13 +12,13 @@ Much credit to them—this project would not exist without their contributions.
 
 ## 📂 Repository Contents
 
-- `read_emg.py` — dataset & preprocessing (EMG/audio/phonemes):contentReference[oaicite:0]{index=0}  
-- `data_utils.py` — feature extraction, normalizers, phoneme inventory:contentReference[oaicite:1]{index=1}  
-- `align.py` — DTW alignment utilities:contentReference[oaicite:2]{index=2}  
-- `models.py` — VQ-VAE tokenizer + EMG→phoneme model with Mixture-of-Recursions:contentReference[oaicite:3]{index=3}  
-- `tokenizer.py` — trains and exports an EMG VQ-VAE tokenizer:contentReference[oaicite:4]{index=4}  
-- `phoneme_decoding.py` — main training loop with logging, checkpoints, metrics:contentReference[oaicite:5]{index=5}  
-- `utils.py` — tokenizer export/load + DTW loss functions:contentReference[oaicite:6]{index=6}  
+- `read_emg.py` — dataset & preprocessing (EMG/audio/phonemes)
+- `data_utils.py` — feature extraction, normalizers, phoneme inventory
+- `align.py` — DTW alignment utilities
+- `models.py` — VQ-VAE tokenizer + EMG→phoneme model with Mixture-of-Recursions 
+- `tokenizer.py` — trains and exports an EMG VQ-VAE tokenizer
+- `phoneme_decoding.py` — main training loop with logging, checkpoints, metrics
+- `utils.py` — tokenizer export/load + DTW loss functions
 
 ---
 
