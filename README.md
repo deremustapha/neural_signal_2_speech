@@ -50,7 +50,7 @@ We provide an `environment.txt` file to reproduce the exact conda environment.
 
 ```bash
 conda create -n brain2speech --file environment.txt
-conda activate brain2speech
+conda activate brain2speech```
 
 
 ## 🚀 Training Steps
