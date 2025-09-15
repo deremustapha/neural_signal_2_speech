@@ -1,6 +1,3 @@
-# neural_signal_2_speech
-
-
 # PhonemeDecoding
 
 End-to-end pipeline for decoding **phonemes** and **acoustic features** from surface EMG.  
