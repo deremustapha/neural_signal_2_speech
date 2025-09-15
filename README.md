@@ -55,8 +55,8 @@ We provide an `environment.txt` file to reproduce the exact conda environment.
 
 ## 🚀 Training Steps
 
-### 1. Train the tokenizer
-Train a VQ-VAE tokenizer on raw EMG:
+1. **Train the tokenizer**
+Train a VQ-VAE tokenizer on raw EMG.
+
    ```bash
    python tokenizer.py
-### 2. Train the phoneme decoder
