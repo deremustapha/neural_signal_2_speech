@@ -59,8 +59,8 @@ We provide an `environment.txt` file to reproduce the exact conda environment.
 
 Train a VQ-VAE tokenizer on raw EMG:
 
-```bash
-python tokenizer.py
+   ```bash
+   python tokenizer.py
 
 
 ### 2. Train the phoneme decoder
@@ -72,13 +72,13 @@ EMG into phonemes:
 
 
 ### 3. Listen to generated audio from BMISEMG2SPEECH Dataset
-<div style="display:flex; gap:16px; flex-wrap:wrap;">
-  <figure style="margin:0">
-    <figcaption>Example 1</figcaption>
-    <audio controls src="audio/example1.mp3"></audio>
-  </figure>
-  <figure style="margin:0">
-    <figcaption>Example 2</figcaption>
-    <audio controls src="https://github.com/deremustapha/neural_signal_2_speech/blob/master/audio_demo/Text_0.wav"></audio>
-  </figure>
-</div>
+   <div style="display:flex; gap:16px; flex-wrap:wrap;">
+     <figure style="margin:0">
+       <figcaption>Example 1</figcaption>
+       <audio controls src="audio/example1.mp3"></audio>
+     </figure>
+     <figure style="margin:0">
+       <figcaption>Example 2</figcaption>
+       <audio controls src="https://github.com/deremustapha/neural_signal_2_speech/blob/master/audio_demo/Text_0.wav"></audio>
+     </figure>
+   </div>
