@@ -67,8 +67,8 @@ python tokenizer.py
 
 EMG into phonemes:
 
-```bash
-python phoneme_decoding.py
+   ```bash
+   python phoneme_decoding.py
 
 
 ### 3. Listen to generated audio from BMISEMG2SPEECH Dataset
